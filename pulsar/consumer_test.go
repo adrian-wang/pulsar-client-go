@@ -32,22 +32,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin"
 
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/apache/pulsar-client-go/pulsar/backoff"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/backoff"
 
-	"github.com/apache/pulsar-client-go/pulsaradmin"
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin/config"
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/utils"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin/config"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/utils"
 
-	"github.com/apache/pulsar-client-go/pulsar/crypto"
-	"github.com/apache/pulsar-client-go/pulsar/internal"
-	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
-	plog "github.com/apache/pulsar-client-go/pulsar/log"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/crypto"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
+	pb "github.com/adrian-wang/pulsar-client-go/pulsar/internal/pulsar_proto"
+	plog "github.com/adrian-wang/pulsar-client-go/pulsar/log"
 	"github.com/google/uuid"
 	"github.com/pierrec/lz4/v4"
 	"github.com/stretchr/testify/assert"

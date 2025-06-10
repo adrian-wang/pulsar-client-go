@@ -25,9 +25,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/apache/pulsar-client-go/pulsar/crypto"
-	"github.com/apache/pulsar-client-go/pulsar/internal"
-	"github.com/apache/pulsar-client-go/pulsar/log"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/crypto"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
 )
 
 const (

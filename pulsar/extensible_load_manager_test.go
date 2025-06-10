@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/pulsar-client-go/pulsaradmin"
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/utils"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/utils"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/assert"

@@ -20,9 +20,7 @@ package auth
 import (
 	"net/http"
 
-	"github.com/apache/pulsar-client-go/oauth2"
-
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin/config"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin/config"
 )
 
 // Provider provide a general method to add auth message
@@ -69,14 +67,14 @@ func GetAuthProvider(config *config.Config) (Provider, error) {
 		fallthrough
 	case TokePluginShortName:
 		provider, err = NewAuthenticationTokenFromAuthParams(config.AuthParams, defaultTransport)
-	case OAuth2PluginName:
-		fallthrough
-	case OAuth2PluginShortName:
-		provider, err = NewAuthenticationOAuth2WithDefaultFlow(oauth2.Issuer{
-			IssuerEndpoint: config.IssuerEndpoint,
-			ClientID:       config.ClientID,
-			Audience:       config.Audience,
-		}, config.KeyFile)
+	//case OAuth2PluginName:
+	//	fallthrough
+	//case OAuth2PluginShortName:
+	//	provider, err = NewAuthenticationOAuth2WithDefaultFlow(oauth2.Issuer{
+	//		IssuerEndpoint: config.IssuerEndpoint,
+	//		ClientID:       config.ClientID,
+	//		Audience:       config.Audience,
+	//	}, config.KeyFile)
 	default:
 		switch {
 		case len(config.TLSCertFile) > 0 && len(config.TLSKeyFile) > 0:
@@ -85,9 +83,9 @@ func GetAuthProvider(config *config.Config) (Provider, error) {
 			provider, err = NewAuthenticationToken(config.Token, defaultTransport)
 		case len(config.TokenFile) > 0:
 			provider, err = NewAuthenticationTokenFromFile(config.TokenFile, defaultTransport)
-		case len(config.IssuerEndpoint) > 0 || len(config.ClientID) > 0 || len(config.Audience) > 0 || len(config.Scope) > 0:
-			provider, err = NewAuthenticationOAuth2WithParams(
-				config.IssuerEndpoint, config.ClientID, config.Audience, config.Scope, defaultTransport)
+		//case len(config.IssuerEndpoint) > 0 || len(config.ClientID) > 0 || len(config.Audience) > 0 || len(config.Scope) > 0:
+		//	provider, err = NewAuthenticationOAuth2WithParams(
+		//		config.IssuerEndpoint, config.ClientID, config.Audience, config.Scope, defaultTransport)
 		default:
 			provider = NewDefaultProvider(defaultTransport)
 		}

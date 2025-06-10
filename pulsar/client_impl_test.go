@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin"
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin/config"
-	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/utils"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin/config"
+	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/utils"
 
-	"github.com/apache/pulsar-client-go/pulsar/auth"
-	"github.com/apache/pulsar-client-go/pulsar/internal"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/auth"
+	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
