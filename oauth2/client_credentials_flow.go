@@ -22,7 +22,7 @@ import (
 
 	"strings"
 
-	"github.com/adrian-wang/pulsar-client-go/oauth2/clock"
+	"github.com/apache/pulsar-client-go/oauth2/clock"
 
 	"github.com/pkg/errors"
 )

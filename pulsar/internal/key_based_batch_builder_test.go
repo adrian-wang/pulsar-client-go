@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal/compression"
-	pb "github.com/adrian-wang/pulsar-client-go/pulsar/internal/pulsar_proto"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	"github.com/apache/pulsar-client-go/pulsar/internal/compression"
+	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/proto"

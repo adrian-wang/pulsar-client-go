@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
+	"github.com/apache/pulsar-client-go/pulsar/internal"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/backoff"
+	"github.com/apache/pulsar-client-go/pulsar/backoff"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 )
 
 type dlqRouter struct {

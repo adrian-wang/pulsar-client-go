@@ -21,8 +21,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal/crypto"
+	"github.com/apache/pulsar-client-go/pulsar/internal"
+	"github.com/apache/pulsar-client-go/pulsar/internal/crypto"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/assert"
 )

@@ -24,8 +24,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
-	pb "github.com/adrian-wang/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/apache/pulsar-client-go/pulsar/internal"
+	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
 )
 
 // NewUnexpectedErrMsg instantiates an ErrUnexpectedMsg error.

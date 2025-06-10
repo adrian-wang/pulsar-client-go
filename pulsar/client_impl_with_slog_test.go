@@ -24,7 +24,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 	"github.com/stretchr/testify/assert"
 )
 

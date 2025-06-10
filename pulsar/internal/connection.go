@@ -30,12 +30,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/auth"
+	"github.com/apache/pulsar-client-go/pulsar/auth"
 
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/adrian-wang/pulsar-client-go/pulsar/internal/pulsar_proto"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 )
 
 const (
@@ -405,7 +405,7 @@ func (c *connection) run() {
 
 		// all the accesses to the pendingReqs should be happened in this run loop thread,
 		// including the final cleanup, to avoid the issue
-		// https://github.com/adrian-wang/pulsar-client-go/issues/239
+		// https://github.com/apache/pulsar-client-go/issues/239
 		c.failPendingRequests(errConnectionClosed)
 		c.Close()
 	}()

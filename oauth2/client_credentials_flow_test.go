@@ -21,8 +21,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/adrian-wang/pulsar-client-go/oauth2/clock"
-	"github.com/adrian-wang/pulsar-client-go/oauth2/clock/testing"
+	"github.com/apache/pulsar-client-go/oauth2/clock"
+	"github.com/apache/pulsar-client-go/oauth2/clock/testing"
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"
 )

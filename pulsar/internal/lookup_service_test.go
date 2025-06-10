@@ -30,8 +30,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/adrian-wang/pulsar-client-go/pulsar/internal/pulsar_proto"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 )
 
 type mockedLookupRPCClient struct {

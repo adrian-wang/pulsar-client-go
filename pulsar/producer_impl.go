@@ -25,9 +25,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/crypto"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	"github.com/apache/pulsar-client-go/pulsar/crypto"
+	"github.com/apache/pulsar-client-go/pulsar/internal"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 )
 
 const (

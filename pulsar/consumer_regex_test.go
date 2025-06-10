@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsaradmin"
-	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin/config"
-	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/utils"
+	"github.com/apache/pulsar-client-go/pulsaradmin"
+	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin/config"
+	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/utils"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	"github.com/apache/pulsar-client-go/pulsar/internal"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 )
 
 func TestFilterTopics(t *testing.T) {

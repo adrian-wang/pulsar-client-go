@@ -24,11 +24,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/backoff"
+	"github.com/apache/pulsar-client-go/pulsar/backoff"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsar/internal"
-	pb "github.com/adrian-wang/pulsar-client-go/pulsar/internal/pulsar_proto"
-	"github.com/adrian-wang/pulsar-client-go/pulsar/log"
+	"github.com/apache/pulsar-client-go/pulsar/internal"
+	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/apache/pulsar-client-go/pulsar/log"
 	"github.com/pkg/errors"
 	uAtomic "go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
