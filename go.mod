@@ -1,4 +1,4 @@
-module github.com/adrian-wang/pulsar-client-go
+module github.com/apache/pulsar-client-go
 
 go 1.23.0
 

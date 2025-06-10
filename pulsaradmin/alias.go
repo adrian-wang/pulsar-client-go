@@ -18,8 +18,8 @@
 package pulsaradmin
 
 import (
-	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin"
-	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin/config"
+	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin"
+	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin/config"
 )
 
 // Client contains all admin interfaces for operating pulsar resources

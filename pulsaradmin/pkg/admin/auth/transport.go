@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/adrian-wang/pulsar-client-go/pulsaradmin/pkg/admin/config"
+	"github.com/apache/pulsar-client-go/pulsaradmin/pkg/admin/config"
 )
 
 type Transport struct {
